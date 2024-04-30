@@ -1,0 +1,137 @@
+#sec1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    padding-top: 10px;
+}
+
+#div1 {
+    border: 2px solid rgb(70, 123, 176);
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 2px 20px 4px#ffaa00;
+}
+
+#img1 {
+    max-width: 100%;
+    max-height: 100%;
+    padding-left:10px;
+}
+
+#div2 {
+    margin-left: 112px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#p1 {
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+#h1 {
+    color: #ffaa00;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+#p2 {
+    width: 450px;
+    font-size: 18px;
+    color: #333333;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+
+
+#sec2 {
+    height: 90vh;
+    padding-top: 5px;
+    background-image: linear-gradient(to right, rgba(235, 189, 99, 0.29), rgba(231, 39, 235, 0.29));
+    margin-bottom: 20px;
+}
+
+#div3 {
+    margin:3px 0px -10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#p3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+#h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: #ffaa00;
+    margin-top:-10px;
+    text-shadow: 2px 2px 2px white;
+}
+
+#div5 {
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    padding-top: 20px;
+    gap: 28px;
+}
+
+#div6, #div7, #div9 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    padding:20px 100px 0px 100px;
+}
+
+#div8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96px;
+    height: 96px;
+    background-color: rgba(232, 163, 26, 0.29);
+    border-radius: 50%;
+}
+
+#img3 {
+    width: 96px; 
+    height: 96px;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: #ffaa00;
+}
+
+#p4 {
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+    line-height:1.4;
+}
+
+#img2 {
+    width: 96px; 
+    height: 96px;
+    padding: 30px;
+    margin-bottom: 20px; 
+    border-radius: 50%;
+    background-color: #ffaa00;
+}
+
+
