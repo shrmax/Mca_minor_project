@@ -3,7 +3,7 @@
 ?>
     <section class="sec">
         <div class="div4">
-            <img src="\Chalo\Images\chalo3.png" class="img1">
+            <img src="Images\chalo3.png" class="img1">
         </div>
 
         <div class="div5">
@@ -45,7 +45,7 @@
                 </p>
             </div>
             <div style="padding-left:40px;">
-                <img src="\Chalo\Images\chalo4.png" class="img2"/>
+                <img src="Images\chalo4.png" class="img2"/>
             </div>
             <div class="div10">
                 <h2 class="head3">Never Wait At The Bus Stop Ever Again</h2>
@@ -79,7 +79,7 @@
                 </p>
             </div>
             <div style="padding-left:40px;">
-                <img src="\Chalo\Images\chalo-mobile-pass-img2.png" class="img2"/>
+                <img src="Images\chalo-mobile-pass-img2.png" class="img2"/>
             </div>
             <div class="div10">
                 <h2 class="head3">Buy A Mobile Bus Pass</h2>
@@ -101,86 +101,86 @@
         <div class="div13">
             <div class="div14">
                 <div class="div15">                        
-                    <img src="\Chalo\Images\City_Images\Agra.png">
+                    <img src="Images\City_Images\Agra.png">
                     <p style="font-size:18px;">Agra</p>
                 </div>
                 <div class="div15">
-                    <img src="\Chalo\Images\City_Images\Bhopal.png">
+                    <img src="Images\City_Images\Bhopal.png">
                     <p style="font-size:18px;">Bhopal</p>
                 </div>
                 <div class="div15">
-                    <img src="\Chalo\Images\City_Images\Indore.png">
+                    <img src="Images\City_Images\Indore.png">
                     <p style="font-size:18px;">Indore</p>
                 </div>
                 <div class="div15">
-                    <img src="\Chalo\Images\City_Images\Jabalpur.png">
+                    <img src="Images\City_Images\Jabalpur.png">
                     <p style="font-size:18px;">Jabalpur</p>
                 </div>
                 <div class="div15">
-                    <img src="\Chalo\Images\City_Images\Kanpur.png">
+                    <img src="Images\City_Images\Kanpur.png">
                     <p style="font-size:18px;">Kanpur</p>
                 </div>
                 <div class="div15">
-                    <img src="\Chalo\Images\City_Images\Kochi.png">
+                    <img src="Images\City_Images\Kochi.png">
                     <p style="font-size:18px;">Kochi</p>
                 </div>
             </div>
 
             <div class="div13">
                 <div class="div15">
-                    <img src="\Chalo\Images\City_Images\Kolkata.png">
+                    <img src="Images\City_Images\Kolkata.png">
                     <p style="font-size:18px;">Kolkata</p>
                 </div>
                 <div class="div15">
-                    <img src="\Chalo\Images\City_Images\Lucknow.png">
+                    <img src="Images\City_Images\Lucknow.png">
                     <p style="font-size:18px;">Lucknow</p>
                 </div>
                 <div class="div15">
-                    <img src="\Chalo\Images\City_Images\mangalore.png">
+                    <img src="Images\City_Images\mangalore.png">
                     <p style="font-size:18px;">Mangalore</p>
                 </div>
                 <div class="div15">
-                    <img src="\Chalo\Images\City_Images\Mathura.png">
+                    <img src="Images\City_Images\Mathura.png">
                     <p style="font-size:18px;">Mathura</p>
                 </div>
                 <div class="div15">
-                    <img src="\Chalo\Images\City_Images\Meerut.png">
+                    <img src="Images\City_Images\Meerut.png">
                     <p style="font-size:18px;">Meerut</p>
                 </div>
                 <div class="div15">
-                    <img src="\Chalo\Images\City_Images\Nagpur.png">
+                    <img src="Images\City_Images\Nagpur.png">
                     <p style="font-size:18px;">Nagpur</p>
                 </div>
             </div>
             <div class="div13">
                 <div class="div15">
-                    <img src="\Chalo\Images\City_Images\belgaum.png">
+                    <img src="Images\City_Images\belgaum.png">
                     <p style="font-size:18px;">Belgaum</p>
                 </div>
                 <div class="div15">
-                    <img src="\Chalo\Images\City_Images\chennai.png">
+                    <img src="Images\City_Images\chennai.png">
                     <p style="font-size:18px;">Chennai</p>
                 </div>
                 <div class="div15">
-                    <img src="\Chalo\Images\City_Images\guwahati.png">
+                    <img src="Images\City_Images\guwahati.png">
                     <p style="font-size:18px;">Guwahati</p>
                 </div>
                 <div class="div15">
-                    <img src="\Chalo\Images\City_Images\hubli.png">
+                    <img src="Images\City_Images\hubli.png">
                     <p style="font-size:18px;">Hubli</p>
                 </div>
                 <div class="div15">
-                    <img src="\Chalo\Images\City_Images\udupi.png">
+                    <img src="Images\City_Images\udupi.png">
                     <p style="font-size:18px;">Udupi</p>
                 </div>
                 <div class="div15">
-                    <img src="\Chalo\Images\City_Images\patna.png">
+                    <img src="Images\City_Images\patna.png">
                     <p style="font-size:18px;">Patna</p>
                 </div>
             </div>
             <div class="div13">
                 <div class="div15">
-                    <img src="\Chalo\Images\City_Images\mumbai.png">
+                    <img src="Images\City_Images\mumbai.png">
                     <p style="font-size:18px;">Mumbai</p>
                 </div>
             </div>
@@ -192,7 +192,7 @@
     </section>
 
     <!--- Gallery Section(linking is done seperately)-->
-    <iframe src="\Chalo\Home_Add\gallery.html" width="100%" height="400"></iframe>
+    <iframe src="gallery.html" width="100%" height="400"></iframe>
 
     <!-- Footer -->
 <?php
