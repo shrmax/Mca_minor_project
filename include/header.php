@@ -32,9 +32,14 @@ session_start();
                     <li>
                         <a href="mobile_ticket.php" class="a1">Mobile Ticket</a>
                     </li>
+                    <?php
+                if (isset($_SESSION["username"])){
+                    ?>
                     <li>
                         <a href="Studentplan.php" class="a1">Student Plans</a>
                     </li>
+                <?php
+                }?>
                 </ul>
             </div>
             

@@ -1,9 +1,40 @@
 <?php
 include("include/header.php");
+require_once 'dbfiles/dbh.inc.php';
+
 ?>
-    
-    <section id="sec1">
+
+<?php
+                if (isset($_SESSION["username"])){
+                    $user=$_SESSION['number'];
+                    $query="SELECT a.name,a.age,a.clgname,a.clgid,pl.price,pl.trips,p.city,p.startdate,p.enddate FROM student a JOIN payment p on a.email=p.studentid JOIN plans pl on p.planid=pl.pid  where a.phoneno=".$user." ORDER by p.startdate DESC LIMIT 1;";
+                    $result=mysqli_query($con,$query);
+                    $row = mysqli_fetch_row($result);
+                    ?>
+ <div class="ticket">
+     
+     <div class="pass">
+         <p><span>Student Name</span>  : <?php echo $row[0]?></p>
+         <p><span>Student Age</span>  : <?php echo $row[1]?></p>
+         <p><span>College Name</span>  : <?php echo $row[2]?></p>
+         <p><span>College ID</span>  : <?php echo $row[3]?></p>
+         <p><span>city</span>  : <?php echo $row[6]?></p>
+         <p><span>Current plan</span>  :<?php echo $row[4]?> </p>   
+        </div>
+        <p> Your pass</p>
+        <p><?php echo $row[7]?>  :  <?php echo $row[8]?></p>
+        <img src="Images/random.png" alt="">
+    </div>
+    <?php
+                }
+                else{
+    ?>
+
+
+     <section id="sec1">
+
         <div id="div1">
+        
             <img src="Images\Chalo_card\mobile_pass1.png" id="img1" />
         </div>
         <div id="div2">
@@ -65,5 +96,6 @@ include("include/header.php");
     </section>
 
     <?php
+                }
     include("include/footer.php");
 ?>

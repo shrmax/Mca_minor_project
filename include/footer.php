@@ -19,19 +19,19 @@
             </div>
             <div class="div19">
                 <a href="https://www.facebook.com/chaloapp">
-                    <img src="\Chalo\Images\fb.jpg" class="img3"></img>
+                    <img src="Images\fb.jpg" class="img3"></img>
                 </a>
                 <a href="https://www.instagram.com/chalo.app/">
-                    <img src="\Chalo\Images\insta.png" class="img3"></img>
+                    <img src="Images\insta.png" class="img3"></img>
                 </a>
                 <a href="https://www.linkedin.com/company/chaloapp">
-                    <img src="\Chalo\Images\linkedIn.jpg" class="img3"></img>
+                    <img src="Images\linkedIn.jpg" class="img3"></img>
                 </a>
                 <a href="https://twitter.com/chaloapp">
-                    <img src="\Chalo\Images\twit.jpg" class="img3"></img>
+                    <img src="Images\twit.jpg" class="img3"></img>
                 </a>
                 <a href="https://www.youtube.com/channel/UCKSIJ56JRt7YrG6hFQ-wMYA">
-                    <img src="\Chalo\Images\YouTube.jpg" class="img3"></img>
+                    <img src="Images\YouTube.jpg" class="img3"></img>
                 </a>
             </div>
         </div>

@@ -72,11 +72,36 @@ function loginUser($con,$name,$pwd){
         $_SESSION["email"] = $nameexists["email"];
         $_SESSION["username"] = $nameexists["name"];
         $_SESSION['number'] = $nameexists['phoneno'];
-                header("location: ../index.php");
+        header("location: ../index.php");
        
     }
     // header("location: ../index.php?error=none");
     exit();
 }
 
+// payment
+function payment($con,$userm,$plan,$city,$refno,$bank){
+    $query='select duration from plans where pid='.$plan.';';
+    $result=mysqli_query($con,$query);
+    $row = mysqli_fetch_row($result);
 
+    $date=new DateTime();
+    $current= $date->format('d/m/y');
+    $date->modify('+'.$row[0].' days');
+    $newdate= $date->format('d/m/y');
+
+
+    $sql= "INSERT INTO payment (studentid,planid,city,trasnid,bank,startdate,enddate) VALUES (?,?,?,?,?,?,?);";
+    $stmt= mysqli_stmt_init($con);
+    if(!mysqli_stmt_prepare($stmt,$sql)){
+        header("location: ../payment.php?error=stmtfailed");
+        exit();
+    }
+    mysqli_stmt_bind_param($stmt,"sssssss",$userm,$plan,$city,$refno,$bank,$current,$newdate);
+    mysqli_stmt_execute($stmt);
+    mysqli_stmt_close($stmt);
+    header("location: ../mobile_pass.php?");
+    exit();
+
+    
+}
