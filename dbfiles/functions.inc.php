@@ -1,16 +1,16 @@
 <?php
 
 // function use check whether the password matches
-function pwdmatch($pwd,$repeat_pwd){
-    // $result;
-    if($pwd !== $repeat_pwd){
-        $result=true;
-    }
-    else{
-        $result=false;
-    }
-    return $result;
-}
+// function pwdmatch($pwd,$repeat_pwd){
+//     // $result;
+//     if($pwd !== $repeat_pwd){
+//         $result=true;
+//     }
+//     else{
+//         $result=false;
+//     }
+//     return $result;
+// }
 
 // checks whether the user exists or not
 function nameexist($con,$phone_no,$email){
